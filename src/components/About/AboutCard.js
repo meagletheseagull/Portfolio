@@ -13,7 +13,7 @@ function AboutCard() {
             <br /> I am currently finishing my masters this semester in computer science at FIU
             and already have my bachelors in mechanical engineering from the same institution.
             <br />
-            Additionally, I am currently employed as a software engineer at Cutting Edge AI (also known
+            Additionally, I am currently employed as a software engineering intern at Cutting Edge AI (also known
             as Toren AI).
             <br />
             <br />
