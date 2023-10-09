@@ -10,6 +10,8 @@ function Type() {
           "Freelancer",
           "Mechanical Engineer",
           "Roboticist",
+          "Researcher",
+          "Lifelong Learner",
         ],
         autoStart: true,
         loop: true,

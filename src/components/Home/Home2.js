@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/grad_2.JPG";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,40 +16,37 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a mechanical engineer that somehow wound themselves in the world of
-              software engineering.
+              I am a mechanical engineer that somehow found myself in the world of
+              software engineering, in pursuit of going into robotics.
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in languages like
               <i>
-                <b className="purple"> C++ and Python. </b>
+                <b className="blue"> C++ and Python. </b>
               </i>
               <br />
               <br />
               My field of Interest's are in &nbsp;
               <i>
-                <b className="purple">Robotics (mechanical and software) </b> and
+                <b className="blue">Robotics (mechanical and software design) </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Artifical ntelligence and Machine Learning.
+                <b className="blue">
+                  Artifical Intelligence and Machine Learning.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I am going to be finishing my masters in &nbsp;
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="blue"> computer science </b>
+              this upcoming {" "}
+                <b className="blue"> fall 2023 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              and will be in search of a full-time role as a
+              <b className="blue"> Roboticist  </b>
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -62,12 +59,12 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="blue">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/meagletheseagull"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +74,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/miguel-mac/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +84,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/meagletheseagull"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

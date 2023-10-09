@@ -8,8 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Miguel Cabrera </span>
-            from <span className="purple"> Miami, Florida.</span>
+            Hi Everyone, I am <span className="blue">Miguel Cabrera </span>
+            from <span className="blue"> Miami, Florida.</span>
             <br /> I am currently finishing my masters this semester in computer science at FIU
             and already have my bachelors in mechanical engineering from the same institution.
             <br />
@@ -17,7 +17,7 @@ function AboutCard() {
             as Toren AI).
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding and robotics, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
@@ -27,14 +27,14 @@ function AboutCard() {
               <ImPointRight /> Photography
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Chess
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Soumyajit</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

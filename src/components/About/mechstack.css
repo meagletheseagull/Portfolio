@@ -1,0 +1,47 @@
+.interactive-stack {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .stack-item {
+    position: absolute;
+    top: calc(10% + (80% * random()));
+    left: calc(10% + (80% * random()));
+    font-size: 2.5em; 
+    transition: transform 0.5s ease, font-size 0.5s ease;
+    animation: drift 5s infinite alternate; 
+    transform-origin: center;
+    cursor: pointer;
+    /* transition: font-size 0.3s; */
+  }
+  
+  .stack-item:hover {
+    font-size: 3.5em;
+    transform: scale(1.1);
+    z-index: 1;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(10px - 20px * random()));
+    }
+  }
+
+  @keyframes drift {
+    0% {
+        transform: translate(0,0);
+    }
+    50% {
+        transform: translate(10px,10px);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+  }
+  

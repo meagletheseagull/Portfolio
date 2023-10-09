@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Mechstack from "./Mechstack";
 
 function About() {
   return (
@@ -22,7 +23,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I AM</strong>
+              Know Who <strong className="blue">I AM</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -35,17 +36,22 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Professional <strong className="blue
+          ">Skillset </strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="blue">Tools</strong> I use
         </h1>
         <Toolstack />
-
+        <h1 className="project-heading">
+          <strong className="blue">Mechanical Engineering Tools</strong> I use
+        </h1>
+        <Mechstack />
         <Github />
+
       </Container>
     </Container>
   );

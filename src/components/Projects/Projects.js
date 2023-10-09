@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import shellhacks from "../../Assets/Projects/shellhacks_22.png"
+import arm from "../../Assets/Projects/arm.png"
+import robo from "../../Assets/Projects/robo_de_janeiro.jpg"
 
 function Projects() {
   return (
@@ -15,7 +12,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="blue">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -23,69 +20,34 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={shellhacks}
               isBlog={false}
               title="Object Locator Using GPS Input"
-              description="I worked on the development of a device that is able locate and track objects using only GPS input for my very first hackathon event I have ever participated in.
-              "
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="In this project, I developed a specialized device capable of accurately locating and tracking objects solely through GPS input for the shellhacks 2022 event. The endeavor required a integration of both hardware and software components, showcasing my capability to engineer innovative solutions. This project culminated in the successful creation of a functional prototype, even under stringent time constraints of 3 days."
+
+              demoLink="https://youtube.com/shorts/hwlaBH5Xm5A"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={robo}
               isBlog={false}
               title="Solar Powered Pesticide Spraying Robot"
-              description="My senior design project was the design and development of a prototype for a remote controlled solar powered pesticide spraying robot intended to reduce human exposure to pesticides and extreme weather conditions."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="For my senior design project, I spearheaded the design and development of a groundbreaking remote-controlled robot powered by solar energy, specifically designed to spray pesticides. The primary objective of this robot was to diminish the direct exposure of humans to potentially harmful pesticides and to protect them from extreme weather conditions often encountered during manual spraying.
+              Throughout the project, I employed a meticulous mechanical design process, which facilitated multiple iterations to continually enhance the robot's performance and efficiency. My technical approach included creating detailed CAD drawings using SolidWorks, leveraging rapid prototyping services, and playing a role in the actual manufacturing process of the robot."
+              demoLink="https://youtu.be/MCcZ9ERJ4WA"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={arm}
               isBlog={false}
               title="Collaborative Dexterous Manipulation"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title=""
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              description="I took on a challenging task with the UR3 industrial robot, aiming to grip and sort balls based on their color. A vital aspect of this project involved the integration of ROS nodes, which facilitated seamless communication between the depth camera and the robot arm, ensuring accurate and efficient ball detection and sorting.
+              To enhance the robot's capability in recognizing and pinpointing ball positions, I utilized the OpenCV library. This allowed for the precise determination of the centroids of the balls, ensuring the UR3 robot could grip and sort them accurately by color."
+              demoLink="https://youtu.be/3TIN3wxTR_E"              
             />
           </Col>
         </Row>
