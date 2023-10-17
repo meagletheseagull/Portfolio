@@ -19,8 +19,9 @@ function InteractiveStack() {
   useEffect(() => {
     const newTranslations = mechStack.map(() => randomTranslate());
     setTranslations(newTranslations);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
+  
   return (
     <div className="interactive-stack">
       {mechStack.map((tool, idx) => (
