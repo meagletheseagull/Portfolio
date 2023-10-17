@@ -50,7 +50,7 @@ function About() {
           <strong className="blue">Mechanical Engineering Tools</strong> I use
         </h1>
         <Mechstack />
-        <Github />
+        {/* <Github /> */}
 
       </Container>
     </Container>
