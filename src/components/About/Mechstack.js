@@ -12,8 +12,10 @@ function randomTranslate() {
   };
 }
 
+// Move mechStack outside the component
+const mechStack = ["SolidWorks", "MATLAB", "NX", "AutoCAD", "ANSYS", "Gazebo", "ROS/ROS2", "3D Printing"];
+
 function InteractiveStack() {
-  const mechStack = ["SolidWorks", "MATLAB", "NX", "AutoCAD", "ANSYS", "Gazebo", "ROS/ROS2", "3D Printing"];
   const [translations, setTranslations] = useState([]);
 
   useEffect(() => {
@@ -21,9 +23,8 @@ function InteractiveStack() {
       top: randomPercentage(),
       left: randomPercentage(),
       translate: randomTranslate()
-      // eslint-disable-next-line react-hooks/exhaustive-deps
     }));
-
+  
     // Adjust positions to prevent overlaps
     for (let i = 0; i < newTranslations.length; i++) {
       for (let j = i + 1; j < newTranslations.length; j++) {
@@ -36,9 +37,10 @@ function InteractiveStack() {
         }
       }
     }
-
+  
     setTranslations(newTranslations);
-  }, []);
+  }, []); // Correct placement of the dependency array
+  
 
   function checkOverlap(item1, item2) {
     // Assuming each element is a square of 100x100 pixels for simplicity
