@@ -12,10 +12,7 @@ function AboutCard() {
             from <span className="blue"> Miami, Florida.</span>
             <br /> I am currently finishing my masters this semester in computer science at FIU
             and already have my bachelors in mechanical engineering from the same institution.
-            <br />
-            Additionally, I am currently employed as a software engineering intern at Cutting Edge AI (also known
-            as Toren AI).
-            <br />
+          
             <br />
             Apart from coding and robotics, some other activities that I love to do!
           </p>

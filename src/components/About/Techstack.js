@@ -8,7 +8,6 @@ import {
   DiPython,
   DiGit,
   DiJava,
-  DiRuby,
 } from "react-icons/di";
 
 
@@ -35,9 +34,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiRuby />
       </Col>
     </Row>
   );
