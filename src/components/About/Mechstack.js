@@ -21,6 +21,7 @@ function InteractiveStack() {
       top: randomPercentage(),
       left: randomPercentage(),
       translate: randomTranslate()
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }));
 
     // Adjust positions to prevent overlaps
