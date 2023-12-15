@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/grad_2.JPG";
+import myImg from "../../Assets/grad_4.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -36,14 +36,12 @@ function Home2() {
               </i>
               <br />
               <br />
-              I am going to be finishing my masters in &nbsp;
+              I have recently finished my masters degree this past fall of 2023 in &nbsp;
               <i>
-                <b className="blue"> computer science </b>
-              this upcoming {" "}
-                <b className="blue"> fall 2023 </b>
+                <b className="blue"> computer science </b> 
               </i>
-              and will be in search of a full-time role as a
-              <b className="blue"> Roboticist  </b>
+              and will be in search of a full-time role in the field of 
+              <b className="blue"> Robotics  </b>
 
             </p>
           </Col>
