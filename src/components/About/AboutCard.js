@@ -37,7 +37,7 @@ function AboutCard() {
           </p > 
           <footer className="blockquote-footer">Carlson Gracie, Sr.</footer> 
           <p style={{ textAlign: "justify" }}>
-          I would like to same that the same holds true in life: there is no losing, only opportunities to learn and succeed.
+          I would like to think that the same holds true in life: there is no losing, only opportunities to learn and succeed.
         </p>
         </blockquote>
 
